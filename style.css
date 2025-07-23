@@ -154,3 +154,25 @@
     font-size: 24px;
     font-weight: bold;
 }
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+     .navbar{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .customers img{
+        padding: 12px;
+        align-items: center;
+    }
+    .card{
+        grid-template-columns: 1fr;
+    }
+    .Featured-products{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+}
